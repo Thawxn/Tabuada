@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <title>Tabuada</title>
+</head>
+<body onload="carrega()">
+    
+<header>
+    <h1>
+        Tabuada
+    </h1>
+</header>
+<section>
+    <div id="body-area">
+        <div id="dados">
+            <P>
+                Número:
+                <input type="number" placeholder="Digite o número aqui" name="num" id="txtn"/>
+            </P>
+
+                <input class="botao" type="button" value="Subtração" onclick="tabuadaSub()"/>
+                <input class="botao" type="button" value="Adição" onclick="tabuadaAdi()"/>
+                <input class="botao" type="button" value="Multiplicação" onclick="tabuadaMul()"/>
+        </div>
+
+
+        <div id="resul">
+            <select name="tabuada" id="seltab" size="10">
+                <option>Selecione um Número:</option>
+            </select>
+        </div>
+    </div>
+</section>
+<footer>
+    <p>&copy; ThawanMarques</p>
+</footer>
+<script src="JavaScript/script.js">
+</script>
+</body>
+</html>
